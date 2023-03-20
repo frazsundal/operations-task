@@ -3,6 +3,7 @@
 **Solution 1**
 
 **SETUP** 
+
 To clone the repository on your machine you can use below command
 ````
 git clone https://github.com/frazsundal/operations-task
