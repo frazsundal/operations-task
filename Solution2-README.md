@@ -10,7 +10,8 @@ After reviewing data ingestion pipeline requirements, We need to consider import
 To design such system we need to have a serverless approach which runs event driven architecture. To develop this pipeline we should take IaaC concepts which can create all these components by just a terraform script and creating new enviroment (DEV/DIT/UAT) is super easy. Serverless approach is beneficial and reduce cost and compute resource as it only runs when there is a need for the system.
 
 # Design
----- picture
+![OperationsDiagram](https://user-images.githubusercontent.com/11090423/226405979-671419b2-9998-44c7-8650-fccaef181468.png)
+
 My approach to design this pipleline will start with an API gateway which is a perfect component to handle hundred of thousands of concurrent API calls with no upfront cost, You only pay for API call you receive. API Gateway provide feature such as API Version management, CORS, Auth and Access control, Throttling, Monitoring and others.
 
 I would like to divide up coming requests in a way that all requests are divided into 2 different paths. 
