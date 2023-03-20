@@ -1,5 +1,26 @@
 # Xeneta Operations Task
 
+##Solution 1
+**START** 
+
+To start the service, we need to run following command
+docker-compose up --build
+
+Once both services are running we can access
+
+**URL**
+
+http://localhost:3000/rates?date_from=2021-01-20&date_to=2021-01-31&orig_code=CNGGZ&dest_code=EETLL
+
+**STOP**
+To stop the service, we need to run following command
+docker-compose down
+
+##Solution 2
+I have created a Solution2-README.md file to describe about the pipleline case study
+
+##PROBLEM
+
 The task is two-fold:
 
 * A practical case of developing a deployable development environment based on a simple application.
