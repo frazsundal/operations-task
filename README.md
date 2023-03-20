@@ -2,10 +2,19 @@
 
 **Solution 1**
 
+**SETUP** 
+To clone the repository on your machine you can use below command
+````
+git clone https://github.com/frazsundal/operations-task
+````
+
 **START** 
 
 To start the service, we need to run following command
+
+````
 docker-compose up --build
+````
 
 Once both services are running we can access
 
@@ -16,8 +25,9 @@ http://localhost:3000/rates?date_from=2021-01-20&date_to=2021-01-31&orig_code=CN
 **STOP**
 
 To stop the service, we need to run following command
+````
 docker-compose down
-
+````
 
 **Solution 2**
 
