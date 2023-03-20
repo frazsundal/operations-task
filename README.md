@@ -1,6 +1,6 @@
 # Xeneta Operations Task
 
-##Solution 1
+**Solution 1**
 
 **START** 
 
@@ -14,14 +14,20 @@ Once both services are running we can access
 http://localhost:3000/rates?date_from=2021-01-20&date_to=2021-01-31&orig_code=CNGGZ&dest_code=EETLL
 
 **STOP**
+
 To stop the service, we need to run following command
 docker-compose down
 
-##Solution 2
 
-I have created a Solution2-README.md file to describe about the pipleline case study
+**Solution 2**
 
-##PROBLEM
+I have created a https://github.com/frazsundal/operations-task/blob/master/Solution2-README.md file to describe about the pipleline case study
+
+
+
+
+
+**PROBLEM**
 
 The task is two-fold:
 
