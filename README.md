@@ -1,6 +1,7 @@
 # Xeneta Operations Task
 
 ##Solution 1
+
 **START** 
 
 To start the service, we need to run following command
@@ -17,6 +18,7 @@ To stop the service, we need to run following command
 docker-compose down
 
 ##Solution 2
+
 I have created a Solution2-README.md file to describe about the pipleline case study
 
 ##PROBLEM
